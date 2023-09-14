@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5D2FB6B52AB318BC00883ABA /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 5D2FB6B42AB318BC00883ABA /* main.c */; };
-		5D2FB6BD2AB31E0900883ABA /* testing.c in Sources */ = {isa = PBXBuildFile; fileRef = 5D2FB6BC2AB31E0900883ABA /* testing.c */; };
+		5D2FB6CB2AB322C700883ABA /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 5D2FB6CA2AB322C700883ABA /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		5D2FB6AF2AB318BC00883ABA /* CopyFiles */ = {
+		5D2FB6C52AB322C700883ABA /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -24,14 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		5D2FB6B12AB318BC00883ABA /* sineAbsolute */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = sineAbsolute; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D2FB6B42AB318BC00883ABA /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		5D2FB6BB2AB31E0900883ABA /* testing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testing.h; sourceTree = "<group>"; };
-		5D2FB6BC2AB31E0900883ABA /* testing.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = testing.c; sourceTree = "<group>"; };
+		5D2FB6C72AB322C700883ABA /* sine and cosine */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "sine and cosine"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D2FB6CA2AB322C700883ABA /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5D2FB6AE2AB318BC00883ABA /* Frameworks */ = {
+		5D2FB6C42AB322C700883ABA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,67 +38,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5D2FB6A82AB318BC00883ABA = {
+		5D2FB6BE2AB322C700883ABA = {
 			isa = PBXGroup;
 			children = (
-				5D2FB6BB2AB31E0900883ABA /* testing.h */,
-				5D2FB6BC2AB31E0900883ABA /* testing.c */,
-				5D2FB6B32AB318BC00883ABA /* sineAbsolute */,
-				5D2FB6B22AB318BC00883ABA /* Products */,
+				5D2FB6C92AB322C700883ABA /* sine and cosine */,
+				5D2FB6C82AB322C700883ABA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5D2FB6B22AB318BC00883ABA /* Products */ = {
+		5D2FB6C82AB322C700883ABA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5D2FB6B12AB318BC00883ABA /* sineAbsolute */,
+				5D2FB6C72AB322C700883ABA /* sine and cosine */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5D2FB6B32AB318BC00883ABA /* sineAbsolute */ = {
+		5D2FB6C92AB322C700883ABA /* sine and cosine */ = {
 			isa = PBXGroup;
 			children = (
-				5D2FB6B42AB318BC00883ABA /* main.c */,
+				5D2FB6CA2AB322C700883ABA /* main.c */,
 			);
-			path = sineAbsolute;
+			path = "sine and cosine";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5D2FB6B02AB318BC00883ABA /* sineAbsolute */ = {
+		5D2FB6C62AB322C700883ABA /* sine and cosine */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5D2FB6B82AB318BC00883ABA /* Build configuration list for PBXNativeTarget "sineAbsolute" */;
+			buildConfigurationList = 5D2FB6CE2AB322C700883ABA /* Build configuration list for PBXNativeTarget "sine and cosine" */;
 			buildPhases = (
-				5D2FB6AD2AB318BC00883ABA /* Sources */,
-				5D2FB6AE2AB318BC00883ABA /* Frameworks */,
-				5D2FB6AF2AB318BC00883ABA /* CopyFiles */,
+				5D2FB6C32AB322C700883ABA /* Sources */,
+				5D2FB6C42AB322C700883ABA /* Frameworks */,
+				5D2FB6C52AB322C700883ABA /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = sineAbsolute;
-			productName = sineAbsolute;
-			productReference = 5D2FB6B12AB318BC00883ABA /* sineAbsolute */;
+			name = "sine and cosine";
+			productName = "sine and cosine";
+			productReference = 5D2FB6C72AB322C700883ABA /* sine and cosine */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5D2FB6A92AB318BC00883ABA /* Project object */ = {
+		5D2FB6BF2AB322C700883ABA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					5D2FB6B02AB318BC00883ABA = {
+					5D2FB6C62AB322C700883ABA = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 5D2FB6AC2AB318BC00883ABA /* Build configuration list for PBXProject "sineAbsolute" */;
+			buildConfigurationList = 5D2FB6C22AB322C700883ABA /* Build configuration list for PBXProject "sine and cosine" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,30 +104,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 5D2FB6A82AB318BC00883ABA;
-			productRefGroup = 5D2FB6B22AB318BC00883ABA /* Products */;
+			mainGroup = 5D2FB6BE2AB322C700883ABA;
+			productRefGroup = 5D2FB6C82AB322C700883ABA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5D2FB6B02AB318BC00883ABA /* sineAbsolute */,
+				5D2FB6C62AB322C700883ABA /* sine and cosine */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5D2FB6AD2AB318BC00883ABA /* Sources */ = {
+		5D2FB6C32AB322C700883ABA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D2FB6BD2AB31E0900883ABA /* testing.c in Sources */,
-				5D2FB6B52AB318BC00883ABA /* main.c in Sources */,
+				5D2FB6CB2AB322C700883ABA /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		5D2FB6B62AB318BC00883ABA /* Debug */ = {
+		5D2FB6CC2AB322C700883ABA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -190,7 +184,7 @@
 			};
 			name = Debug;
 		};
-		5D2FB6B72AB318BC00883ABA /* Release */ = {
+		5D2FB6CD2AB322C700883ABA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -241,7 +235,7 @@
 			};
 			name = Release;
 		};
-		5D2FB6B92AB318BC00883ABA /* Debug */ = {
+		5D2FB6CF2AB322C700883ABA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -249,7 +243,7 @@
 			};
 			name = Debug;
 		};
-		5D2FB6BA2AB318BC00883ABA /* Release */ = {
+		5D2FB6D02AB322C700883ABA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -260,25 +254,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5D2FB6AC2AB318BC00883ABA /* Build configuration list for PBXProject "sineAbsolute" */ = {
+		5D2FB6C22AB322C700883ABA /* Build configuration list for PBXProject "sine and cosine" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5D2FB6B62AB318BC00883ABA /* Debug */,
-				5D2FB6B72AB318BC00883ABA /* Release */,
+				5D2FB6CC2AB322C700883ABA /* Debug */,
+				5D2FB6CD2AB322C700883ABA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5D2FB6B82AB318BC00883ABA /* Build configuration list for PBXNativeTarget "sineAbsolute" */ = {
+		5D2FB6CE2AB322C700883ABA /* Build configuration list for PBXNativeTarget "sine and cosine" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5D2FB6B92AB318BC00883ABA /* Debug */,
-				5D2FB6BA2AB318BC00883ABA /* Release */,
+				5D2FB6CF2AB322C700883ABA /* Debug */,
+				5D2FB6D02AB322C700883ABA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5D2FB6A92AB318BC00883ABA /* Project object */;
+	rootObject = 5D2FB6BF2AB322C700883ABA /* Project object */;
 }
